@@ -137,7 +137,7 @@ window.onload = function () { //LOAD FUNCTIONS WITH ONLOAD
       for (var i = 0; i < word.length; i++) {
         if (word[i] === geuss) {
           geusses[i].innerHTML = geuss;
-          
+
           // counter += 1;
         } 
       }
@@ -153,7 +153,7 @@ window.onload = function () { //LOAD FUNCTIONS WITH ONLOAD
   }
   
     
-  // Play function with categories 
+  // PLAY FUNCTION WITH THREE CATEGORIES 
   play = function () {
     categories = [
         ["rick", "morty", "summer", "beth", "jerry", "squanchy", "birdperson", "gazorpazorpfield","meseeks"], //Characters
@@ -187,9 +187,9 @@ window.onload = function () { //LOAD FUNCTIONS WITH ONLOAD
     hint.onclick = function() {
 
       hints = [
-        ["Burrrrrp", "Uhhhhh.....guys???!", "Like, totallyyyy.", "Horses", "Apples", "Cat like", "Winged beast","Lasagna cat","Gennie in a bottle"],
-        ["Burrrrrp", "agave", "clear", "JD", "mollases","mollases...again"],
-        ["Sanchez gone bad", "Thoughtception", "Mini-me", "Galactic Federation", "Rick Team"]
+        ["Burrrrrp", "Uhhhhh.....guys???!", "Like, totallyyyy.", "Horses", "Apples", "Cat like", "Winged beast","Lasagna cat","Gennie in a bottle"], //Character Hints
+        ["Burrrrrp", "agave", "clear", "JD", "mollases","mollases...again"], //Booze hints 
+        ["Sanchez gone bad", "Thoughtception", "Mini-me", "Galactic Federation", "Rick Team"] //Antagonist hints 
     ];
 
     var categoryIndex = categories.indexOf(chosenCategory);
