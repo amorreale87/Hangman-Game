@@ -1,0 +1,75 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Rick and Morty Hangman</title>
+
+
+
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/javascript/game.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Finger+Paint|Frijole" rel="stylesheet">
+
+
+</head>
+<body>
+
+<!-- AUDIO/Sound Bites -->
+<embed src="love.mp3"
+       autostart="true"
+       hidden="true"
+       loop="false">
+<noembed><bgsound src="love.mp3" loop="1"></noembed>
+</embed>
+
+<audio id="audioLoss" src="doingok.wav" autostart="false" ></audio>
+<audio id="audioWin" src="isay.wav" autostart="false" ></audio>
+
+<!-- END AUDIO -->
+
+    <div class="wrapper">
+      <img class="header-pic" src="assets/images/rm-header.jpeg" alt="Rick-Morty-Heading-img">
+       
+
+       <h1>A Game of Hangman</h1>
+        
+        
+    </div>
+
+  <div class="container">
+            <button id="hint">Hint</button>
+            <button id="reset">Play Again</button>
+  </div>
+
+
+
+    <div class="wrapper">
+      
+      <p id="categoryName"></p>
+        
+        <div id="hold"></div>
+        <p id="mylives"></p>
+        <p id="clue"></p>
+        <p id="solution"></p>  
+
+        <div id="buttons"></div>
+
+        <div id="guess">Letters Guessed: </div> 
+
+        
+
+      </div>
+</body>
+</html>
+
+
+
+
+

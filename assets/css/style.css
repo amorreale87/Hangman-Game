@@ -1,0 +1,181 @@
+
+body {
+  background: #000;
+
+  height: 100%;
+  text-align: center;
+  font-size: 20px;
+
+
+  font-family: 'Finger Paint', cursive;
+  color: #00A4B3;
+  text-shadow:2px 1px #49D460;
+}
+
+.wrappper {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrappper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+h1, h2, h3 {
+  font-size: 20px; 
+  font-family: Georgia, Times;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+h1{
+  
+  font-family: 'Frijole', cursive;
+ 
+
+
+
+
+
+
+
+  color: #00A4B3;
+  text-shadow:2px 1px #49D460;
+  margin-top: 10px; 
+  font-size: 35px; 
+}
+
+
+
+#alphabet {
+  margin: 15px auto;
+  padding: 0;
+  max-width: 900px;
+}
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#alphabet li {
+  font-family: 'Finger Paint', cursive;
+
+  float: left;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 40px;
+  height: 30px;
+  padding-top: 10px;
+  background: #fff;
+  color: #777;
+  border: solid 1px #fff;
+  border-radius: 40px;
+}
+#alphabet li:hover {
+  background: #00A4B3;
+  border: solid 1px #49D460;
+  color: #fff;
+}
+
+#my-word {
+  margin: 10px;
+  display: block;
+  padding: 0;
+  display: block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 5px;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.active {
+  opacity: 0.1;
+}
+
+.active:hover {
+  /*-moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;*/
+}
+
+#mylives {
+  font-family: 'Finger Paint', cursive;
+  color: #00A4B3;
+  text-shadow:2px 1px #49D460;
+  margin-top: 10px; 
+  font-size: 35px; 
+
+
+  margin:10px;
+  font-size: 1.6em;
+  text-align: center;
+  display: block;
+}
+
+
+#categoryName {
+  font-family: 'Finger Paint', cursive;
+  font-weight:bold;
+  color: #00A4B3;
+  text-shadow:2px 1px #49D460;
+  margin-top: 10px; 
+  font-size: 25px; 
+}
+
+#clue {
+  font-family: 'Finger Paint', cursive;
+  color: #00A4B3;
+  text-shadow:2px 1px #49D460;
+  margin-top: 10px; 
+  font-size: 25px; 
+}
+
+#solution{
+  font-family: 'Finger Paint', cursive;
+  color: #00A4B3;
+  text-shadow:2px 1px #49D460;
+  margin-top: 10px; 
+  font-size: 25px; 
+}
+
+button {
+
+  margin:10px;
+  width:145px;
+  height: 25px;
+  border-radius: 40px;
+  background-color: #fff;
+
+}
+
+button:hover {
+  background: #00A4B3;
+  border: solid 1px #49D460;
+  color: #fff;
+}
+
+
+/*@media (max-width: 767px) {
+  #alphabet {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 480px) {
+  #alphabet {
+    padding: 0 0 0 25px;
+  }
+}*/
